@@ -1,4 +1,6 @@
 # rain
-creating realistic rain with p5.js framewok
+creating realistic rain with p5.js framework
+
 link:
+
 https://jahrelstewart.github.io/rain/JavaScript/
