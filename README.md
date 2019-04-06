@@ -1,5 +1,5 @@
 # rain
-creating realistic rain with p5.js framework
+Rain effect created with p5.js framework
 
 link:
 
