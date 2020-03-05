@@ -280,13 +280,13 @@ let arr = [];
 function setup() {
 	//createCanvas(1700, 900);
 	createCanvas(windowWidth, windowHeight);
-  for (let z = 0; z < 300; z += 1){
+  for (let z = 0; z < 3000; z += 1){
    arr[z] = new shapes(random(0, width), 0, random(1, 3), random(20, 60));
   }
 }
  
  function mouseReleased(){
-  for (let z = 0; z < 2000; z += 1){
+  for (let z = 0; z < 200; z += 1){
  arr[z].speed = map(arr[z].h, 20, 60, 2, 12);
  }
  }
