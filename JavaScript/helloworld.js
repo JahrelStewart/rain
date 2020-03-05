@@ -279,8 +279,7 @@ let arr = [];
 
 function setup() {
 // 	createCanvas(1700, 900);
-	createCanvas(100, 800);
-//	createCanvas(windowWidth, windowHeight);
+	createCanvas(windowWidth, windowHeight);
   for (let z = 0; z < 300; z += 1){
    arr[z] = new shapes(random(0, width), 0, random(1, 3), random(20, 60));
   }
