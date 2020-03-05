@@ -286,7 +286,7 @@ function setup() {
 }
  
  function mouseReleased(){
-  for (let z = 0; z < 200; z += 1){
+  for (let z = 0; z < 2000; z += 1){
  arr[z].speed = map(arr[z].h, 20, 60, 2, 12);
  }
  }
