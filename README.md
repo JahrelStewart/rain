@@ -1,5 +1,5 @@
 # rain
-Branch of Rain effect created with p5.js framework
+Rain effect created with p5.js framework
 
 link:
 
