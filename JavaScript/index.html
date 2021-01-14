@@ -1,40 +1,43 @@
-<!DOCTYPE html>   
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <style>
-            html, body{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin: 0;
-                padding: 0;
-                width: 99vh;
-                height: 99vh;
-                background-color: rgba(255, 218, 218, 0.4);
-            }
-            #canvas{
-                border: 3px solid wheat;  
-                width: 95%;
-                height: 95%;
-                background-color: rgb(229, 242, 255);
-/*                 border-radius: 65px; */
-/*                 box-shadow: 10px 10px 50px rgb(188, 203, 253); */
-            }
-            
-/*             .vignette {
-                box-shadow: 0 0 200px rgba(172, 112, 184, 0.5) inset;
-            }       */
-           
-        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain</title>
+    <style>
+        html{            
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 99vh;
+            background-color: rgba(255, 218, 218, 0.4);
+        }
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
-    </head>
-    <body>     
-        <div id="canvas"></div>               
-        <script src='helloworld.js'></script>       
-    </body>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            height: 99vh;
+        }
 
+        #canvas{
+            display: flex;
+            justify-content: center;
+            align-items: center;                         
+            width: 60%;
+            height: 95%;
+            border-radius: 20%; 
+            border: 10px solid wheat;
+            overflow: hidden;             
+        }  
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+</head>
+<body>
+    <div id="canvas"></div>               
+    <script src="helloworld.js"></script> 
+</body>
 </html>
